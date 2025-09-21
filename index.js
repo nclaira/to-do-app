@@ -1,4 +1,4 @@
-// Select elements
+//Select elements
 const taskInput = document.getElementById("taskInput");
 const addTaskBtn = document.getElementById("addTaskBtn");
 const taskList = document.getElementById("taskList");
@@ -29,7 +29,7 @@ function addTask() {
 }
 
 // Add task to UI
-function addTaskToDOM(task) {  
+function addTaskToDOM(task) {
   const li = document.createElement("li");
   li.className =
     "flex justify-between items-center bg-gray-50 px-3 py-2 rounded-xl shadow";
