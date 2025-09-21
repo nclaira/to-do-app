@@ -85,7 +85,7 @@ function saveTask(task) {
 }
 
 // Load tasks
-function loadTasks() {
+function loadTasks(){
   renderTasks();
 } 
 
