@@ -77,7 +77,7 @@ function addTaskToDOM(task) {
   taskList.appendChild(li);
 }
 
-// Save to localStorage
+// Save to localStorage 
 function saveTask(task) {
   const tasks = getTasks();
   tasks.push(task);
@@ -87,7 +87,7 @@ function saveTask(task) {
 // Load tasks
 function loadTasks() {
   renderTasks();
-}
+}   
 
 // Get tasks
 function getTasks() {
